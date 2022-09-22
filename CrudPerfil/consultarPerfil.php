@@ -1,4 +1,5 @@
 <?php
+//cambiosn realizados desde el colaborador
 include "../recursos/Conexion.php";
 include "../recursos/FuncionesPerfil.php";
 session_start();
@@ -43,7 +44,7 @@ if(!isset($_SESSION['idPerfil'])){
 
     </head>
     <body>
-
+      <h1>ESTO ES UNA MODIFICACION DESDE EL CLIENTE 2</h1>
  <header class="p-3 mb-3 border-bottom">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
